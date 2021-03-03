@@ -22,4 +22,4 @@ scoreboard objectives add spec trigger
 scoreboard objectives add death deathCount
 scoreboard objectives add xplevel dummy
 # Loading end
-tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v4.1)","color":"dark_green"}
+tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v4.2)","color":"dark_green"}
