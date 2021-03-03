@@ -9,7 +9,6 @@ scoreboard objectives add clearlagstarted dummy
 scoreboard players set sc clearlagstarted 0
 scoreboard objectives add tick dummy
 scoreboard objectives add maxitems dummy
-scoreboard players set sc maxitems 200
 scoreboard objectives add countdown dummy
 scoreboard objectives add nbritems dummy
 scoreboard objectives add clearway dummy
@@ -21,5 +20,6 @@ bossbar set count_down color red
 scoreboard objectives add spec trigger
 # Deaths
 scoreboard objectives add death deathCount
+scoreboard objectives add xplevel dummy
 # Loading end
-tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v4.0)","color":"dark_green"}
+tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v4.1)","color":"dark_green"}
