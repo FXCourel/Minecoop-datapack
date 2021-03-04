@@ -30,6 +30,7 @@ scoreboard objectives add nbrplayersold dummy
 scoreboard objectives add nbrplayersnew dummy
 scoreboard objectives add accept trigger
 scoreboard objectives add deny trigger
+scoreboard objectives add tpacancel trigger
 scoreboard objectives add tpastarted dummy
 scoreboard players set sc tpastarted 0
 scoreboard objectives add tpaasked dummy
