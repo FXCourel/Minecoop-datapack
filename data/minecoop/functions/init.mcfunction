@@ -33,4 +33,4 @@ scoreboard objectives add deny trigger
 scoreboard objectives add tpastarted dummy
 scoreboard players set sc tpastarted 0
 # Loading end
-tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (snapshot v5.0)","color":"dark_green"}
+tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (snapshot v5.0b)","color":"dark_green"}
