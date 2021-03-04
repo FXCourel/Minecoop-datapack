@@ -4,6 +4,5 @@ scoreboard players set sc countdown 10
 scoreboard players set sc tick 0
 scoreboard players set sc clearlagstarted 1
 bossbar set count_down players @a
-bossbar set count_down style notched_10
 bossbar set count_down value 10
 gamerule sendCommandFeedback false
