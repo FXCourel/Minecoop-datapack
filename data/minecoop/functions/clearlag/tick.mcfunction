@@ -1,4 +1,3 @@
-scoreboard players enable @a cancel
 scoreboard players enable @a clearlag
 scoreboard players enable @a spawn
 scoreboard players enable @a[tag=Admin] limit
