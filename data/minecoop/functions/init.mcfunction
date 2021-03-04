@@ -37,4 +37,4 @@ scoreboard objectives add tpaasked dummy
 scoreboard players set sc tpaasked 0
 function minecoop:tpa/id
 # Loading end
-tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (snapshot v5.0b)","color":"dark_green"}
+tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v5.1)","color":"dark_green"}
