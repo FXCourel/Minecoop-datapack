@@ -17,7 +17,6 @@ execute if entity @a[scores={limit=1..}] if score sc itemlimit matches 0 run fun
 execute if entity @a[scores={spawn=1..}] run execute in minecraft:overworld run tp @a[scores={spawn=1..}] -175.54 64.50 -44.50 90 0
 # Fin / Resets
 scoreboard players set @a clearlag 0
-scoreboard players set @a cancel 0
 scoreboard players set @a limit 0
 scoreboard players set @a spawn 0
 gamerule sendCommandFeedback true
