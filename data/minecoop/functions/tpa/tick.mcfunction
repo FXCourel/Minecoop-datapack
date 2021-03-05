@@ -16,3 +16,4 @@ execute if score sc tpastarted matches 0 run scoreboard players set @a deny 0
 execute if score sc tpastarted matches 0 run scoreboard players enable @a[tag=canseeall] accept
 execute if score sc tpastarted matches 0 run scoreboard players enable @a[tag=canseeall] deny
 execute if score sc tpastarted matches 0 run scoreboard players enable @a[tag=canseeall] tpacancel
+scoreboard players reset @a tpacancel
