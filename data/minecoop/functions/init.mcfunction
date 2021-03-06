@@ -38,4 +38,4 @@ scoreboard players set sc tpaasked 0
 function minecoop:tpa/id
 function minecoop:tpa/reset
 # Loading end
-tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v5.2)","color":"dark_green"}
+tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v5.3)","color":"dark_green"}

@@ -1,0 +1,9 @@
+execute if entity @a[scores={tpa=11}] if entity @a[scores={id=11}] run tellraw @a[scores={id=11}] ["",{"text":">> ","color": "gold"},{"selector":"@a[scores={tpa=11}]"},{"text": " a annulé la demande de tpa","color": "gold"}]
+execute if entity @a[scores={tpa=12}] if entity @a[scores={id=12}] run tellraw @a[scores={id=12}] ["",{"text":">> ","color": "gold"},{"selector":"@a[scores={tpa=12}]"},{"text": " a annulé la demande de tpa","color": "gold"}]
+execute if entity @a[scores={tpa=13}] if entity @a[scores={id=13}] run tellraw @a[scores={id=13}] ["",{"text":">> ","color": "gold"},{"selector":"@a[scores={tpa=13}]"},{"text": " a annulé la demande de tpa","color": "gold"}]
+execute if entity @a[scores={tpa=14}] if entity @a[scores={id=14}] run tellraw @a[scores={id=14}] ["",{"text":">> ","color": "gold"},{"selector":"@a[scores={tpa=14}]"},{"text": " a annulé la demande de tpa","color": "gold"}]
+execute if entity @a[scores={tpa=15}] if entity @a[scores={id=15}] run tellraw @a[scores={id=15}] ["",{"text":">> ","color": "gold"},{"selector":"@a[scores={tpa=15}]"},{"text": " a annulé la demande de tpa","color": "gold"}]
+execute if entity @a[scores={tpa=16}] if entity @a[scores={id=16}] run tellraw @a[scores={id=16}] ["",{"text":">> ","color": "gold"},{"selector":"@a[scores={tpa=16}]"},{"text": " a annulé la demande de tpa","color": "gold"}]
+execute if entity @a[scores={tpa=17}] if entity @a[scores={id=17}] run tellraw @a[scores={id=17}] ["",{"text":">> ","color": "gold"},{"selector":"@a[scores={tpa=17}]"},{"text": " a annulé la demande de tpa","color": "gold"}]
+execute if entity @a[scores={tpa=18}] if entity @a[scores={id=18}] run tellraw @a[scores={id=18}] ["",{"text":">> ","color": "gold"},{"selector":"@a[scores={tpa=18}]"},{"text": " a annulé la demande de tpa","color": "gold"}]
+function minecoop:tpa/reset
