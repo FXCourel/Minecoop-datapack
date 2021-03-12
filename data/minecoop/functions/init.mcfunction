@@ -37,5 +37,12 @@ scoreboard objectives add tpaasked dummy
 scoreboard players set sc tpaasked 0
 function minecoop:tpa/id
 function minecoop:tpa/reset
+# Autorisation manager
+scoreboard objectives add datapack_manager trigger
+scoreboard objectives add manager dummy
+scoreboard objectives add enabledtpa dummy
+scoreboard objectives add enabledspec dummy
+scoreboard objectives add enabledspawn dummy
+scoreboard objectives add enabledclearlag dummy
 # Loading end
-tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v5.3)","color":"dark_green"}
+tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v6.0)","color":"dark_green"}
