@@ -1,4 +1,6 @@
 scoreboard players set @s manager 1
+tellraw @a[scores={manager=1..}] {"text":" "}
+tellraw @a[scores={manager=1..}] {"text":" "}
 tellraw @a[scores={manager=1..}] {"text":"------------- Datapack manager menu -------------","color":"gold"}
 tellraw @a[scores={manager=1..}] {"text":" "}
 execute if score sc enabledtpa matches 1 run tellraw @a[scores={manager=1..}] ["",{"text":"  > Tpa :          "},{"text":"Enabled","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/function minecoop:manager/toggletpa"}}]
