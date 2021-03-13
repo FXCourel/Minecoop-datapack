@@ -16,4 +16,3 @@ execute if entity @a[scores={limit=1..}] if score sc itemlimit matches 0 run fun
 # Fin / Resets
 scoreboard players set @a clearlag 0
 scoreboard players set @a limit 0
-scoreboard players set @a spawn 0
