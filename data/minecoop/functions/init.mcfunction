@@ -44,5 +44,6 @@ scoreboard objectives add enabledtpa dummy
 scoreboard objectives add enabledspec dummy
 scoreboard objectives add enabledspawn dummy
 scoreboard objectives add enabledclearlag dummy
+scoreboard objectives add enabledstatues dummy
 # Loading end
-tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v6.2)","color":"dark_green"}
+tellraw @a {"text":">> Minecoop datapack succesfully loaded ! (v6.4)","color":"dark_green"}
