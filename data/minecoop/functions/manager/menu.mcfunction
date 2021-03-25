@@ -15,6 +15,7 @@ execute if score sc enabledstatues matches 1 run tellraw @a[scores={manager=1..}
 execute unless score sc enabledstatues matches 1 run tellraw @a[scores={manager=1..}] ["",{"text":"  > IF / Statues :  "},{"text":"Disabled","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/function minecoop:manager/togglestatues"}}]
 #
 tellraw @a[scores={manager=1..}] {"text":" "}
+function minecoop:manager/op/opon
 scoreboard players reset @a manager
 scoreboard players reset @a datapack_manager
 gamerule sendCommandFeedback false
