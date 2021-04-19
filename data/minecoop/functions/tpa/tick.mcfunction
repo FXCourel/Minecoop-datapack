@@ -1,7 +1,3 @@
-scoreboard players set sc nbrplayersnew 0
-execute as @a run scoreboard players add sc nbrplayersnew 1
-execute unless score sc nbrplayersnew = sc nbrplayersold run function minecoop:tpa/id
-execute as @a run scoreboard players operation sc nbrplayersold = sc nbrplayersnew
 execute if entity @a[scores={accept=1..}] run function minecoop:tpa/accepted
 execute if entity @a[scores={tpa=1..2}] run function minecoop:tpa/start
 execute if entity @a[scores={tpa=11..18}] unless score sc tpaasked matches 1 run function minecoop:tpa/ask
